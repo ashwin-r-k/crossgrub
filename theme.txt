@@ -15,11 +15,11 @@ terminal-font: "Monocraft Regular 22"
 # SHADOW
 + boot_menu {
 	left = 2%-1
-	top = 60%-1
-	width = 600
+	top = 20%-1
+	width = 800
 	height = 500
 
-	item_font = "PixelHallfeticaJP10P Regular 30"
+	item_font = "PixelHallfeticaJP10P Regular 15"
 	item_color = white
 	selected_item_color = white
 	item_height = 30
@@ -30,7 +30,7 @@ terminal-font: "Monocraft Regular 22"
 
 + boot_menu {
 	left = 2%
-	top = 60%
+	top = 20%
 	width = 600
 	height = 500
 
