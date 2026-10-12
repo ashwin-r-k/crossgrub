@@ -16,15 +16,7 @@ If you like this theme, you might also like my [CrossCode-inspired plymouth them
 tar xf crossgrub.tar.gz --directory=/boot/grub/themes
 ```
 
-- Change/add this line in your `/etc/default/grub`:
-```
-GRUB_THEME=/boot/grub/themes/crossgrub/theme.txt
-```
-
-- Update your live grub config by running:
-```
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-```
+- Run `install.sh` as root. It adds the theme setting, disables Memtest entries, and updates the live GRUB config.
 
 - Done!
 
@@ -40,15 +32,7 @@ git clone https://github.com/krypciak/crossgrub
 sudo bash ./install.sh
 ```
 
-- Change/add this line in your `/etc/default/grub`:
-```
-GRUB_THEME=/boot/grub/themes/crossgrub/theme.txt
-```
-
-- Update your live grub config by running:
-```
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-```
+- The script adds the theme setting, disables Memtest entries, and updates the live GRUB config.
 
 - Done!
 
